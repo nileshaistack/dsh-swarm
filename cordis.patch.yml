@@ -1,0 +1,6 @@
+# Inserts the swarm plugin: one model-facing `swarm` tool over the existing
+# subagent seam. Nothing is overridden; uninstalling this bundle removes the
+# tool and leaves every other delegation tool untouched.
+- insert:
+    - id: swarm
+      name: '@local/dsh-swarm'

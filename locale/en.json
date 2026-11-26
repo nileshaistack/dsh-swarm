@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent swarm",
+    "description": "Adds one `swarm` tool that runs a whole plan of independent worker agents in parallel and merges their answers into a single report. Workers are ordinary subagents with their own context and tools; the swarm adds a concurrency ceiling, a retry budget, a whole-batch deadline, and per-task structured results so a fan-out is bounded and legible instead of a pile of separate delegations."
+  }
+}

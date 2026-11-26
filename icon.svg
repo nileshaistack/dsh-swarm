@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Agent swarm">
+  <circle cx="18" cy="18" r="4" />
+  <circle cx="8.5" cy="8.5" r="2.6" />
+  <circle cx="27.5" cy="8.5" r="2.6" />
+  <circle cx="8.5" cy="27.5" r="2.6" />
+  <circle cx="27.5" cy="27.5" r="2.6" />
+  <path d="M10.4 10.4 14.9 14.9" />
+  <path d="M25.6 10.4 21.1 14.9" />
+  <path d="M10.4 25.6 14.9 21.1" />
+  <path d="M25.6 25.6 21.1 21.1" />
+</svg>

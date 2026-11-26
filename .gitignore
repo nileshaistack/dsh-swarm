@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+
+# local artifacts: swarm run reports contain personal notes, not project code
+runs/

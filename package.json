@@ -1,0 +1,29 @@
+{
+  "name": "@local/dsh-swarm",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fans one plan out across many parallel worker agents and merges their results into a single structured report, with a concurrency ceiling, retry budget, and whole-batch deadline.",
+  "exports": {
+    ".": "./index.js",
+    "./engine/swarm.js": "./engine/swarm.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "engine/swarm.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
